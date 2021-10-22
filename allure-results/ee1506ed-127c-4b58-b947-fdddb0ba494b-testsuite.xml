@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634901671371' stop='1634901680097'>
+    <name>Rosterfy login</name>
+    <title>Rosterfy login</title>
+    <test-cases>
+        <test-case start='1634901671372' status='broken' stop='1634901680095'>
+            <name>Rosterfy homepage Login</name>
+            <title>Rosterfy homepage Login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>selector needs to be typeof `string` or `function`</message>
+                <stack-trace>Error: selector needs to be typeof `string` or `function`
+                    at Browser.findElement (D:\Rosterfy\node_modules\webdriverio\build\utils\index.js:245:11)
+                    at Browser.$ (D:\Rosterfy\node_modules\webdriverio\build\commands\browser\$.js:88:43)
+                    at Browser.runCommandWithHooks (D:\Rosterfy\node_modules\@wdio\sync\build\wrapCommand.js:105:34)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Browser.runCommandWithHooks (D:\Rosterfy\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (D:\Rosterfy\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Browser.&lt;anonymous> (D:\Rosterfy\node_modules\@wdio\utils\build\shim.js:245:24)
+                    at $ (D:\Rosterfy\node_modules\@wdio\runner\build\index.js:190:42)
+                    at Rlogin.AdminBtn (D:\Rosterfy\test\pageobjects\/Rlogin.js:28:16)
+                    at Rlogin.RYlogin (D:\Rosterfy\test\pageobjects\/Rlogin.js:78:31)
+                    at Context.&lt;anonymous> (D:\Rosterfy\test\specs\/login.js:7:16)
+                    at Context.executeSync (D:\Rosterfy\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\Rosterfy\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

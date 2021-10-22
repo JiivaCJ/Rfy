@@ -1,0 +1,99 @@
+{
+  "uid" : "b328d5ed01b7cdcf",
+  "name" : "Rosterfy homepage Login",
+  "fullName" : "Rosterfy login.Rosterfy homepage Login",
+  "historyId" : "8b9a81ad4a9c423680c5ca11a19518cd",
+  "time" : {
+    "start" : 1632218922104,
+    "stop" : 1632218940860,
+    "duration" : 18756
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Rosterfy login"
+  }, {
+    "name" : "testClass",
+    "value" : "Rosterfy login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Rosterfy homepage Login"
+  }, {
+    "name" : "package",
+    "value" : "Rosterfy login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "150ac7381e507504",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632218295922,
+        "stop" : 1632218315562,
+        "duration" : 19640
+      }
+    }, {
+      "uid" : "c0ea756ff72b0e61",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//a[@id='__BVID__19__BV_toggle_']\" because element wasn't found",
+      "time" : {
+        "start" : 1632143059479,
+        "stop" : 1632143076415,
+        "duration" : 16936
+      }
+    }, {
+      "uid" : "2595da8e03f067b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632142757260,
+        "stop" : 1632142778820,
+        "duration" : 21560
+      }
+    }, {
+      "uid" : "fd4e0352a356b9cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632140950055,
+        "stop" : 1632140969842,
+        "duration" : 19787
+      }
+    }, {
+      "uid" : "fbf2251d1892b727",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632140159112,
+        "stop" : 1632140180422,
+        "duration" : 21310
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b328d5ed01b7cdcf.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

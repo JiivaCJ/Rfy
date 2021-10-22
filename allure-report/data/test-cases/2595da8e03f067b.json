@@ -1,0 +1,56 @@
+{
+  "uid" : "2595da8e03f067b",
+  "name" : "Rosterfy homepage Login",
+  "fullName" : "Rosterfy login.Rosterfy homepage Login",
+  "historyId" : "8b9a81ad4a9c423680c5ca11a19518cd",
+  "time" : {
+    "start" : 1632142757260,
+    "stop" : 1632142778820,
+    "duration" : 21560
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Rosterfy login"
+  }, {
+    "name" : "testClass",
+    "value" : "Rosterfy login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Rosterfy homepage Login"
+  }, {
+    "name" : "package",
+    "value" : "Rosterfy login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2595da8e03f067b.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

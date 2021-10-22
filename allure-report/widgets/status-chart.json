@@ -1,0 +1,11 @@
+[ {
+  "uid" : "b328d5ed01b7cdcf",
+  "name" : "Rosterfy homepage Login",
+  "time" : {
+    "start" : 1632218922104,
+    "stop" : 1632218940860,
+    "duration" : 18756
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
